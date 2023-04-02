@@ -1,0 +1,29 @@
+body {
+  background-color: aliceblue;
+}
+
+.post__wrapper {
+  width: 80vw;
+  margin: 0 auto;
+  font-family: "Playfair Display", serif;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.post__item {
+  width: 40%;
+  text-align: center;
+  padding: 10px;
+  font-family: "Playfair Display", serif;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.post__title {
+  font-size: 20px;
+  font-weight: 500;
+}
+.post__body {
+  font-weight: 400;
+  font-style: italic;
+}
